@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/gmapping/slam_gmapping_replay"
-  "/home/user/ros1_ws/devel/lib/gmapping/slam_gmapping_replay.pdb"
+  "/root/ros1_ws/devel/lib/gmapping/slam_gmapping_replay"
+  "/root/ros1_ws/devel/lib/gmapping/slam_gmapping_replay.pdb"
   "CMakeFiles/slam_gmapping_replay.dir/src/replay.cpp.o"
   "CMakeFiles/slam_gmapping_replay.dir/src/slam_gmapping.cpp.o"
 )

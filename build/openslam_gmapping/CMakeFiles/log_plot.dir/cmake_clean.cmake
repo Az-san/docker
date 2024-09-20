@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/log_plot"
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/log_plot.pdb"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/log_plot"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/log_plot.pdb"
   "CMakeFiles/log_plot.dir/log/log_plot.cpp.o"
 )
 

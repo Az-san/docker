@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 # Utility rule file for turtlebot3_msgs_geneus.
 
@@ -63,10 +63,10 @@ tb3_pkgs/turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_geneus.dir/build: turtlebot3
 .PHONY : tb3_pkgs/turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_geneus.dir/build
 
 tb3_pkgs/turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_geneus.dir/clean:
-	cd /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_msgs && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot3_msgs_geneus.dir/cmake_clean.cmake
+	cd /root/ros1_ws/build/tb3_pkgs/turtlebot3_msgs && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot3_msgs_geneus.dir/cmake_clean.cmake
 .PHONY : tb3_pkgs/turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_geneus.dir/clean
 
 tb3_pkgs/turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_geneus.dir/depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros1_ws/src /home/user/ros1_ws/src/tb3_pkgs/turtlebot3_msgs /home/user/ros1_ws/build /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_msgs /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros1_ws/src /root/ros1_ws/src/tb3_pkgs/turtlebot3_msgs /root/ros1_ws/build /root/ros1_ws/build/tb3_pkgs/turtlebot3_msgs /root/ros1_ws/build/tb3_pkgs/turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tb3_pkgs/turtlebot3_msgs/CMakeFiles/turtlebot3_msgs_geneus.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/share/roseus/ros/srv_pkg/manifest.l"
-  "/home/user/ros1_ws/devel/share/roseus/ros/srv_pkg/srv/SlamCmd.l"
+  "/root/ros1_ws/devel/share/roseus/ros/srv_pkg/manifest.l"
+  "/root/ros1_ws/devel/share/roseus/ros/srv_pkg/srv/SlamCmd.l"
   "CMakeFiles/srv_pkg_generate_messages_eus"
 )
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/user/ros1_ws/src/openslam_gmapping/gridfastslam/gfs2neff.cpp
+/root/ros1_ws/src/openslam_gmapping/gridfastslam/gfs2neff.cpp
 iostream
 -
 fstream

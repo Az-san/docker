@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/gmapping/slam_gmapping"
-  "/home/user/ros1_ws/devel/lib/gmapping/slam_gmapping.pdb"
+  "/root/ros1_ws/devel/lib/gmapping/slam_gmapping"
+  "/root/ros1_ws/devel/lib/gmapping/slam_gmapping.pdb"
   "CMakeFiles/slam_gmapping.dir/src/main.cpp.o"
   "CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o"
 )

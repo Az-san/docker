@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 # Utility rule file for srv_pkg_genlisp.
 
@@ -63,10 +63,10 @@ srv_pkg/CMakeFiles/srv_pkg_genlisp.dir/build: srv_pkg_genlisp
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_genlisp.dir/build
 
 srv_pkg/CMakeFiles/srv_pkg_genlisp.dir/clean:
-	cd /home/user/ros1_ws/build/srv_pkg && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg_genlisp.dir/cmake_clean.cmake
+	cd /root/ros1_ws/build/srv_pkg && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg_genlisp.dir/cmake_clean.cmake
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_genlisp.dir/clean
 
 srv_pkg/CMakeFiles/srv_pkg_genlisp.dir/depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros1_ws/src /home/user/ros1_ws/src/srv_pkg /home/user/ros1_ws/build /home/user/ros1_ws/build/srv_pkg /home/user/ros1_ws/build/srv_pkg/CMakeFiles/srv_pkg_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros1_ws/src /root/ros1_ws/src/srv_pkg /root/ros1_ws/build /root/ros1_ws/build/srv_pkg /root/ros1_ws/build/srv_pkg/CMakeFiles/srv_pkg_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_genlisp.dir/depend
 

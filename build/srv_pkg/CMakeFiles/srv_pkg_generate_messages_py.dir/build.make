@@ -43,33 +43,33 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 # Utility rule file for srv_pkg_generate_messages_py.
 
 # Include the progress variables for this target.
 include srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/progress.make
 
-srv_pkg/CMakeFiles/srv_pkg_generate_messages_py: /home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py
-srv_pkg/CMakeFiles/srv_pkg_generate_messages_py: /home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py
+srv_pkg/CMakeFiles/srv_pkg_generate_messages_py: /root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py
+srv_pkg/CMakeFiles/srv_pkg_generate_messages_py: /root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py
 
 
-/home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
-/home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py: /home/user/ros1_ws/src/srv_pkg/srv/SlamCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV srv_pkg/SlamCmd"
-	cd /home/user/ros1_ws/build/srv_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/user/ros1_ws/src/srv_pkg/srv/SlamCmd.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p srv_pkg -o /home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv
+/root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py: /opt/ros/noetic/lib/genpy/gensrv_py.py
+/root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py: /root/ros1_ws/src/srv_pkg/srv/SlamCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code from SRV srv_pkg/SlamCmd"
+	cd /root/ros1_ws/build/srv_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /root/ros1_ws/src/srv_pkg/srv/SlamCmd.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p srv_pkg -o /root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv
 
-/home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
-/home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py: /home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for srv_pkg"
-	cd /home/user/ros1_ws/build/srv_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv --initpy
+/root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py: /opt/ros/noetic/lib/genpy/genmsg_py.py
+/root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py: /root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python srv __init__.py for srv_pkg"
+	cd /root/ros1_ws/build/srv_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv --initpy
 
 srv_pkg_generate_messages_py: srv_pkg/CMakeFiles/srv_pkg_generate_messages_py
-srv_pkg_generate_messages_py: /home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py
-srv_pkg_generate_messages_py: /home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py
+srv_pkg_generate_messages_py: /root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py
+srv_pkg_generate_messages_py: /root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py
 srv_pkg_generate_messages_py: srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/build.make
 
 .PHONY : srv_pkg_generate_messages_py
@@ -80,10 +80,10 @@ srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/build: srv_pkg_generate_mess
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/build
 
 srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/clean:
-	cd /home/user/ros1_ws/build/srv_pkg && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg_generate_messages_py.dir/cmake_clean.cmake
+	cd /root/ros1_ws/build/srv_pkg && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/clean
 
 srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros1_ws/src /home/user/ros1_ws/src/srv_pkg /home/user/ros1_ws/build /home/user/ros1_ws/build/srv_pkg /home/user/ros1_ws/build/srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros1_ws/src /root/ros1_ws/src/srv_pkg /root/ros1_ws/build /root/ros1_ws/build/srv_pkg /root/ros1_ws/build/srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_generate_messages_py.dir/depend
 

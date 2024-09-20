@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros1_ws/build/CMakeFiles /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/progress.marks
-	cd /home/user/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/user/ros1_ws/build/CMakeFiles 0
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/ros1_ws/build/CMakeFiles /root/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/progress.marks
+	cd /root/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/ros1_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/user/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/clean
+	cd /root/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/user/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/preinstall
+	cd /root/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/user/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/preinstall
+	cd /root/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/rule:
-	cd /home/user/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/rule
+	cd /root/ros1_ws/build && $(MAKE) -f CMakeFiles/Makefile2 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/rule
 .PHONY : tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ turtlebot3_fake_node: tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles
 
 # fast build rule for target.
 turtlebot3_fake_node/fast:
-	cd /home/user/ros1_ws/build && $(MAKE) -f tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build
+	cd /root/ros1_ws/build && $(MAKE) -f tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build
 .PHONY : turtlebot3_fake_node/fast
 
 src/turtlebot3_fake.o: src/turtlebot3_fake.cpp.o
@@ -188,7 +188,7 @@ src/turtlebot3_fake.o: src/turtlebot3_fake.cpp.o
 
 # target to build an object file
 src/turtlebot3_fake.cpp.o:
-	cd /home/user/ros1_ws/build && $(MAKE) -f tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o
+	cd /root/ros1_ws/build && $(MAKE) -f tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o
 .PHONY : src/turtlebot3_fake.cpp.o
 
 src/turtlebot3_fake.i: src/turtlebot3_fake.cpp.i
@@ -197,7 +197,7 @@ src/turtlebot3_fake.i: src/turtlebot3_fake.cpp.i
 
 # target to preprocess a source file
 src/turtlebot3_fake.cpp.i:
-	cd /home/user/ros1_ws/build && $(MAKE) -f tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.i
+	cd /root/ros1_ws/build && $(MAKE) -f tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.i
 .PHONY : src/turtlebot3_fake.cpp.i
 
 src/turtlebot3_fake.s: src/turtlebot3_fake.cpp.s
@@ -206,7 +206,7 @@ src/turtlebot3_fake.s: src/turtlebot3_fake.cpp.s
 
 # target to generate assembly for a file
 src/turtlebot3_fake.cpp.s:
-	cd /home/user/ros1_ws/build && $(MAKE) -f tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.s
+	cd /root/ros1_ws/build && $(MAKE) -f tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.s
 .PHONY : src/turtlebot3_fake.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

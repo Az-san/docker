@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/user/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.h
-ros/ros.h
--
-sensor_msgs/LaserScan.h
--
-geometry_msgs/Twist.h
--
-nav_msgs/Odometry.h
--
-
-/home/user/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp
-turtlebot3_gazebo/turtlebot3_drive.h
-/home/user/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_gazebo/turtlebot3_drive.h
-
 /opt/ros/noetic/include/geometry_msgs/Point.h
 string
 -
@@ -561,6 +547,8 @@ vector
 -
 map
 -
+memory
+-
 boost/array.hpp
 -
 boost/call_traits.hpp
@@ -863,4 +851,18 @@ vector
 -
 time.h
 -
+
+/root/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/turtlebot3_drive.h
+ros/ros.h
+-
+sensor_msgs/LaserScan.h
+-
+geometry_msgs/Twist.h
+-
+nav_msgs/Odometry.h
+-
+
+/root/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_drive.cpp
+turtlebot3_gazebo/turtlebot3_drive.h
+/root/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_gazebo/src/turtlebot3_gazebo/turtlebot3_drive.h
 

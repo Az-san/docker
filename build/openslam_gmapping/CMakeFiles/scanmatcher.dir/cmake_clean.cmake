@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/libscanmatcher.pdb"
-  "/home/user/ros1_ws/devel/lib/libscanmatcher.so"
+  "/root/ros1_ws/devel/lib/libscanmatcher.pdb"
+  "/root/ros1_ws/devel/lib/libscanmatcher.so"
   "CMakeFiles/scanmatcher.dir/scanmatcher/eig3.cpp.o"
   "CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcher.cpp.o"
   "CMakeFiles/scanmatcher.dir/scanmatcher/scanmatcherprocessor.cpp.o"

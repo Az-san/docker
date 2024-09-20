@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest"
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest.pdb"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/icptest"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/icptest.pdb"
   "CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o"
 )
 

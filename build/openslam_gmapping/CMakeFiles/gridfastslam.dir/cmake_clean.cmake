@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/libgridfastslam.pdb"
-  "/home/user/ros1_ws/devel/lib/libgridfastslam.so"
+  "/root/ros1_ws/devel/lib/libgridfastslam.pdb"
+  "/root/ros1_ws/devel/lib/libgridfastslam.so"
   "CMakeFiles/gridfastslam.dir/gridfastslam/gfsreader.cpp.o"
   "CMakeFiles/gridfastslam.dir/gridfastslam/gridslamprocessor.cpp.o"
   "CMakeFiles/gridfastslam.dir/gridfastslam/gridslamprocessor_tree.cpp.o"

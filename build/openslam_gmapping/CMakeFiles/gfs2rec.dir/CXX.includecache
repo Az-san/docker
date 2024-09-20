@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/user/ros1_ws/src/openslam_gmapping/gridfastslam/gfs2rec.cpp
+/root/ros1_ws/src/openslam_gmapping/gridfastslam/gfs2rec.cpp
 cstring
 -
 iostream
@@ -22,7 +22,7 @@ list
 gmapping/utils/point.h
 -
 
-/home/user/ros1_ws/src/openslam_gmapping/include/gmapping/utils/gvalues.h
+/root/ros1_ws/src/openslam_gmapping/include/gmapping/utils/gvalues.h
 values.h
 -
 limits.h
@@ -32,7 +32,7 @@ math.h
 limits
 -
 
-/home/user/ros1_ws/src/openslam_gmapping/include/gmapping/utils/point.h
+/root/ros1_ws/src/openslam_gmapping/include/gmapping/utils/point.h
 assert.h
 -
 math.h
@@ -40,5 +40,5 @@ math.h
 iostream
 -
 gmapping/utils/gvalues.h
-/home/user/ros1_ws/src/openslam_gmapping/include/gmapping/utils/gmapping/utils/gvalues.h
+/root/ros1_ws/src/openslam_gmapping/include/gmapping/utils/gmapping/utils/gvalues.h
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 # Include any dependencies generated for this target.
 include tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/depend.make
@@ -58,17 +58,17 @@ include tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fa
 include tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/flags.make
 
 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o: tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/flags.make
-tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o: /home/user/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o"
-	cd /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o -c /home/user/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp
+tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o: /root/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o"
+	cd /root/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o -c /root/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp
 
 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.i"
-	cd /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp > CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.i
+	cd /root/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp > CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.i
 
 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.s"
-	cd /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp -o CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.s
+	cd /root/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/src/turtlebot3_fake.cpp -o CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.s
 
 # Object files for target turtlebot3_fake_node
 turtlebot3_fake_node_OBJECTS = \
@@ -77,44 +77,44 @@ turtlebot3_fake_node_OBJECTS = \
 # External object files for target turtlebot3_fake_node
 turtlebot3_fake_node_EXTERNAL_OBJECTS =
 
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libtf.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libtf2_ros.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libactionlib.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libmessage_filters.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libroscpp.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libtf2.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/librosconsole.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/librostime.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node"
-	cd /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot3_fake_node.dir/link.txt --verbose=$(VERBOSE)
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake.cpp.o
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build.make
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libtf.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libtf2_ros.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libactionlib.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libmessage_filters.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libroscpp.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libtf2.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/librosconsole.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/librostime.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /opt/ros/noetic/lib/libcpp_common.so
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node: tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node"
+	cd /root/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtlebot3_fake_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build: /home/user/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node
+tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build: /root/ros1_ws/devel/lib/turtlebot3_fake/turtlebot3_fake_node
 
 .PHONY : tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/build
 
 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/clean:
-	cd /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot3_fake_node.dir/cmake_clean.cmake
+	cd /root/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake && $(CMAKE_COMMAND) -P CMakeFiles/turtlebot3_fake_node.dir/cmake_clean.cmake
 .PHONY : tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/clean
 
 tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros1_ws/src /home/user/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake /home/user/ros1_ws/build /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake /home/user/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros1_ws/src /root/ros1_ws/src/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake /root/ros1_ws/build /root/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake /root/ros1_ws/build/tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tb3_pkgs/turtlebot3_simulations/turtlebot3_fake/CMakeFiles/turtlebot3_fake_node.dir/depend
 

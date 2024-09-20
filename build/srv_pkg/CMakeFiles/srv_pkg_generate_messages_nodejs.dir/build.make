@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 # Utility rule file for srv_pkg_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/progress.make
 
-srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs: /home/user/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js
+srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs: /root/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js
 
 
-/home/user/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/user/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js: /home/user/ros1_ws/src/srv_pkg/srv/SlamCmd.srv
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from srv_pkg/SlamCmd.srv"
-	cd /home/user/ros1_ws/build/srv_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/user/ros1_ws/src/srv_pkg/srv/SlamCmd.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p srv_pkg -o /home/user/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv
+/root/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/root/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js: /root/ros1_ws/src/srv_pkg/srv/SlamCmd.srv
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from srv_pkg/SlamCmd.srv"
+	cd /root/ros1_ws/build/srv_pkg && ../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /root/ros1_ws/src/srv_pkg/srv/SlamCmd.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p srv_pkg -o /root/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv
 
 srv_pkg_generate_messages_nodejs: srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs
-srv_pkg_generate_messages_nodejs: /home/user/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js
+srv_pkg_generate_messages_nodejs: /root/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js
 srv_pkg_generate_messages_nodejs: srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/build.make
 
 .PHONY : srv_pkg_generate_messages_nodejs
@@ -73,10 +73,10 @@ srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/build: srv_pkg_generate_
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/build
 
 srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/clean:
-	cd /home/user/ros1_ws/build/srv_pkg && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /root/ros1_ws/build/srv_pkg && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/clean
 
 srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros1_ws/src /home/user/ros1_ws/src/srv_pkg /home/user/ros1_ws/build /home/user/ros1_ws/build/srv_pkg /home/user/ros1_ws/build/srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros1_ws/src /root/ros1_ws/src/srv_pkg /root/ros1_ws/build /root/ros1_ws/build/srv_pkg /root/ros1_ws/build/srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_generate_messages_nodejs.dir/depend
 

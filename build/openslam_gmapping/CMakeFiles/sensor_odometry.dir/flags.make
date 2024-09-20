@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dsensor_odometry_EXPORTS
 
-CXX_INCLUDES = -I/home/user/ros1_ws/src/openslam_gmapping/include -I/home/user/ros1_ws/devel/include 
+CXX_INCLUDES = -I/root/ros1_ws/src/openslam_gmapping/include -I/root/ros1_ws/devel/include 
 

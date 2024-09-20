@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include".split(';') if "${prefix}/i
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "-lutils;-lsensor_base;-lsensor_odometry;-lsensor_range;-llog;-lconfigfile;-lscanmatcher;-lgridfastslam".split(';') if "-lutils;-lsensor_base;-lsensor_odometry;-lsensor_range;-llog;-lconfigfile;-lscanmatcher;-lgridfastslam" != "" else []
 PROJECT_NAME = "openslam_gmapping"
-PROJECT_SPACE_DIR = "/home/user/ros1_ws/install"
+PROJECT_SPACE_DIR = "/root/ros1_ws/install"
 PROJECT_VERSION = "0.2.1"

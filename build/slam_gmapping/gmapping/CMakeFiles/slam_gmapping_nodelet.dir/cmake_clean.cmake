@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/libslam_gmapping_nodelet.pdb"
-  "/home/user/ros1_ws/devel/lib/libslam_gmapping_nodelet.so"
+  "/root/ros1_ws/devel/lib/libslam_gmapping_nodelet.pdb"
+  "/root/ros1_ws/devel/lib/libslam_gmapping_nodelet.so"
   "CMakeFiles/slam_gmapping_nodelet.dir/src/nodelet.cpp.o"
   "CMakeFiles/slam_gmapping_nodelet.dir/src/slam_gmapping.cpp.o"
 )

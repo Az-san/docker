@@ -1,4 +1,4 @@
-prefix=/home/user/ros1_ws/install
+prefix=/root/ros1_ws/install
 
 Name: turtlebot3_bringup
 Description: Description of turtlebot3_bringup

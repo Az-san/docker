@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/scanmatch_test"
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/scanmatch_test.pdb"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/scanmatch_test"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/scanmatch_test.pdb"
   "CMakeFiles/scanmatch_test.dir/scanmatcher/scanmatch_test.cpp.o"
 )
 

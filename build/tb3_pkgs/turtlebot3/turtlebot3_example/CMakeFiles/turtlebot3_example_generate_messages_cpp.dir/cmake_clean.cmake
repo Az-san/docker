@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/include/turtlebot3_example/Turtlebot3Action.h"
-  "/home/user/ros1_ws/devel/include/turtlebot3_example/Turtlebot3ActionFeedback.h"
-  "/home/user/ros1_ws/devel/include/turtlebot3_example/Turtlebot3ActionGoal.h"
-  "/home/user/ros1_ws/devel/include/turtlebot3_example/Turtlebot3ActionResult.h"
-  "/home/user/ros1_ws/devel/include/turtlebot3_example/Turtlebot3Feedback.h"
-  "/home/user/ros1_ws/devel/include/turtlebot3_example/Turtlebot3Goal.h"
-  "/home/user/ros1_ws/devel/include/turtlebot3_example/Turtlebot3Result.h"
+  "/root/ros1_ws/devel/include/turtlebot3_example/Turtlebot3Action.h"
+  "/root/ros1_ws/devel/include/turtlebot3_example/Turtlebot3ActionFeedback.h"
+  "/root/ros1_ws/devel/include/turtlebot3_example/Turtlebot3ActionGoal.h"
+  "/root/ros1_ws/devel/include/turtlebot3_example/Turtlebot3ActionResult.h"
+  "/root/ros1_ws/devel/include/turtlebot3_example/Turtlebot3Feedback.h"
+  "/root/ros1_ws/devel/include/turtlebot3_example/Turtlebot3Goal.h"
+  "/root/ros1_ws/devel/include/turtlebot3_example/Turtlebot3Result.h"
   "CMakeFiles/turtlebot3_example_generate_messages_cpp"
 )
 

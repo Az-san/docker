@@ -43,28 +43,28 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 # Utility rule file for srv_pkg_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/progress.make
 
-srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp: /home/user/ros1_ws/devel/include/srv_pkg/SlamCmd.h
+srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp: /root/ros1_ws/devel/include/srv_pkg/SlamCmd.h
 
 
-/home/user/ros1_ws/devel/include/srv_pkg/SlamCmd.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/user/ros1_ws/devel/include/srv_pkg/SlamCmd.h: /home/user/ros1_ws/src/srv_pkg/srv/SlamCmd.srv
-/home/user/ros1_ws/devel/include/srv_pkg/SlamCmd.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/user/ros1_ws/devel/include/srv_pkg/SlamCmd.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/user/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from srv_pkg/SlamCmd.srv"
-	cd /home/user/ros1_ws/src/srv_pkg && /home/user/ros1_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/user/ros1_ws/src/srv_pkg/srv/SlamCmd.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p srv_pkg -o /home/user/ros1_ws/devel/include/srv_pkg -e /opt/ros/noetic/share/gencpp/cmake/..
+/root/ros1_ws/devel/include/srv_pkg/SlamCmd.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/root/ros1_ws/devel/include/srv_pkg/SlamCmd.h: /root/ros1_ws/src/srv_pkg/srv/SlamCmd.srv
+/root/ros1_ws/devel/include/srv_pkg/SlamCmd.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/root/ros1_ws/devel/include/srv_pkg/SlamCmd.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from srv_pkg/SlamCmd.srv"
+	cd /root/ros1_ws/src/srv_pkg && /root/ros1_ws/build/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /root/ros1_ws/src/srv_pkg/srv/SlamCmd.srv -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p srv_pkg -o /root/ros1_ws/devel/include/srv_pkg -e /opt/ros/noetic/share/gencpp/cmake/..
 
 srv_pkg_generate_messages_cpp: srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp
-srv_pkg_generate_messages_cpp: /home/user/ros1_ws/devel/include/srv_pkg/SlamCmd.h
+srv_pkg_generate_messages_cpp: /root/ros1_ws/devel/include/srv_pkg/SlamCmd.h
 srv_pkg_generate_messages_cpp: srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/build.make
 
 .PHONY : srv_pkg_generate_messages_cpp
@@ -75,10 +75,10 @@ srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/build: srv_pkg_generate_mes
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/build
 
 srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/clean:
-	cd /home/user/ros1_ws/build/srv_pkg && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /root/ros1_ws/build/srv_pkg && $(CMAKE_COMMAND) -P CMakeFiles/srv_pkg_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/clean
 
 srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros1_ws/src /home/user/ros1_ws/src/srv_pkg /home/user/ros1_ws/build /home/user/ros1_ws/build/srv_pkg /home/user/ros1_ws/build/srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros1_ws/src /root/ros1_ws/src/srv_pkg /root/ros1_ws/build /root/ros1_ws/build/srv_pkg /root/ros1_ws/build/srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srv_pkg/CMakeFiles/srv_pkg_generate_messages_cpp.dir/depend
 

@@ -7,10 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/user/ros1_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/user/ros1_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/user/ros1_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD='/home/user/ros1_ws/build'
-export PYTHONPATH="/home/user/ros1_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES='/home/user/ros1_ws/devel/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/user/ros1_ws/src:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/root/ros1_ws/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/root/ros1_ws/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/root/ros1_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/root/ros1_ws/build'
+export PYTHONPATH="/root/ros1_ws/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES='/root/ros1_ws/devel/share/common-lisp'
+export ROS_PACKAGE_PATH="/root/ros1_ws/src:$ROS_PACKAGE_PATH"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/libutils.pdb"
-  "/home/user/ros1_ws/devel/lib/libutils.so"
+  "/root/ros1_ws/devel/lib/libutils.pdb"
+  "/root/ros1_ws/devel/lib/libutils.so"
   "CMakeFiles/utils.dir/utils/movement.cpp.o"
   "CMakeFiles/utils.dir/utils/stat.cpp.o"
 )

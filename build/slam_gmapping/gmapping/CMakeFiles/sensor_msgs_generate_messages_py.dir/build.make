@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 # Utility rule file for sensor_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ slam_gmapping/gmapping/CMakeFiles/sensor_msgs_generate_messages_py.dir/build: se
 .PHONY : slam_gmapping/gmapping/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 
 slam_gmapping/gmapping/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	cd /home/user/ros1_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /root/ros1_ws/build/slam_gmapping/gmapping && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : slam_gmapping/gmapping/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 slam_gmapping/gmapping/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros1_ws/src /home/user/ros1_ws/src/slam_gmapping/gmapping /home/user/ros1_ws/build /home/user/ros1_ws/build/slam_gmapping/gmapping /home/user/ros1_ws/build/slam_gmapping/gmapping/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros1_ws/src /root/ros1_ws/src/slam_gmapping/gmapping /root/ros1_ws/build /root/ros1_ws/build/slam_gmapping/gmapping /root/ros1_ws/build/slam_gmapping/gmapping/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : slam_gmapping/gmapping/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 

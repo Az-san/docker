@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/gmapping/gmapping-rtest"
-  "/home/user/ros1_ws/devel/lib/gmapping/gmapping-rtest.pdb"
+  "/root/ros1_ws/devel/lib/gmapping/gmapping-rtest"
+  "/root/ros1_ws/devel/lib/gmapping/gmapping-rtest.pdb"
   "CMakeFiles/gmapping-rtest.dir/test/rtest.cpp.o"
 )
 

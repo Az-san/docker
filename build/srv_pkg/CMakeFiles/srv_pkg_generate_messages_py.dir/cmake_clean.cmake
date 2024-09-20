@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py"
-  "/home/user/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py"
+  "/root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/_SlamCmd.py"
+  "/root/ros1_ws/devel/lib/python3/dist-packages/srv_pkg/srv/__init__.py"
   "CMakeFiles/srv_pkg_generate_messages_py"
 )
 

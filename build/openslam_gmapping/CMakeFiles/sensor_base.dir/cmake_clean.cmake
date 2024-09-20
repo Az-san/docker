@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/libsensor_base.pdb"
-  "/home/user/ros1_ws/devel/lib/libsensor_base.so"
+  "/root/ros1_ws/devel/lib/libsensor_base.pdb"
+  "/root/ros1_ws/devel/lib/libsensor_base.so"
   "CMakeFiles/sensor_base.dir/sensor/sensor_base/sensor.cpp.o"
   "CMakeFiles/sensor_base.dir/sensor/sensor_base/sensorreading.cpp.o"
 )

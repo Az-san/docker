@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/user/ros1_ws/src/srv_pkg/srv/SlamCmd.srv"
+services_str = "/root/ros1_ws/src/srv_pkg/srv/SlamCmd.srv"
 pkg_name = "srv_pkg"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

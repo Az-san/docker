@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ robot_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build: rosgraph_ms
 .PHONY : robot_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 
 robot_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
-	cd /home/user/ros1_ws/build/robot_pkg && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /root/ros1_ws/build/robot_pkg && $(CMAKE_COMMAND) -P CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : robot_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 robot_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros1_ws/src /home/user/ros1_ws/src/robot_pkg /home/user/ros1_ws/build /home/user/ros1_ws/build/robot_pkg /home/user/ros1_ws/build/robot_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros1_ws/src /root/ros1_ws/src/robot_pkg /root/ros1_ws/build /root/ros1_ws/build/robot_pkg /root/ros1_ws/build/robot_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_pkg/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

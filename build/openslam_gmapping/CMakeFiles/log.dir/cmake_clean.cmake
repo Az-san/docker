@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/liblog.pdb"
-  "/home/user/ros1_ws/devel/lib/liblog.so"
+  "/root/ros1_ws/devel/lib/liblog.pdb"
+  "/root/ros1_ws/devel/lib/liblog.so"
   "CMakeFiles/log.dir/log/carmenconfiguration.cpp.o"
   "CMakeFiles/log.dir/log/configuration.cpp.o"
   "CMakeFiles/log.dir/log/sensorlog.cpp.o"

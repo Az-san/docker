@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/share/common-lisp/ros/srv_pkg/srv/SlamCmd.lisp"
+  "/root/ros1_ws/devel/share/common-lisp/ros/srv_pkg/srv/SlamCmd.lisp"
   "CMakeFiles/srv_pkg_generate_messages_lisp"
 )
 

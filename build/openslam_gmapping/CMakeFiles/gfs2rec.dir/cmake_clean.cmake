@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/gfs2rec"
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/gfs2rec.pdb"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/gfs2rec"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/gfs2rec.pdb"
   "CMakeFiles/gfs2rec.dir/gridfastslam/gfs2rec.cpp.o"
 )
 

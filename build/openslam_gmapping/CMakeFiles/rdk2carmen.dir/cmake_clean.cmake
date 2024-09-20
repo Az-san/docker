@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/rdk2carmen"
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/rdk2carmen.pdb"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/rdk2carmen"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/rdk2carmen.pdb"
   "CMakeFiles/rdk2carmen.dir/log/rdk2carmen.cpp.o"
 )
 

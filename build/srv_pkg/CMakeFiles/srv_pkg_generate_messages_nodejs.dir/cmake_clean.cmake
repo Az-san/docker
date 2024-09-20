@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js"
+  "/root/ros1_ws/devel/share/gennodejs/ros/srv_pkg/srv/SlamCmd.js"
   "CMakeFiles/srv_pkg_generate_messages_nodejs"
 )
 

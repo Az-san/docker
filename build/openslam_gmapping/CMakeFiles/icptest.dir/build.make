@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/ros1_ws/src
+CMAKE_SOURCE_DIR = /root/ros1_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/ros1_ws/build
+CMAKE_BINARY_DIR = /root/ros1_ws/build
 
 # Include any dependencies generated for this target.
 include openslam_gmapping/CMakeFiles/icptest.dir/depend.make
@@ -58,17 +58,17 @@ include openslam_gmapping/CMakeFiles/icptest.dir/progress.make
 include openslam_gmapping/CMakeFiles/icptest.dir/flags.make
 
 openslam_gmapping/CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o: openslam_gmapping/CMakeFiles/icptest.dir/flags.make
-openslam_gmapping/CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o: /home/user/ros1_ws/src/openslam_gmapping/scanmatcher/icptest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openslam_gmapping/CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o"
-	cd /home/user/ros1_ws/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o -c /home/user/ros1_ws/src/openslam_gmapping/scanmatcher/icptest.cpp
+openslam_gmapping/CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o: /root/ros1_ws/src/openslam_gmapping/scanmatcher/icptest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object openslam_gmapping/CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o"
+	cd /root/ros1_ws/build/openslam_gmapping && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o -c /root/ros1_ws/src/openslam_gmapping/scanmatcher/icptest.cpp
 
 openslam_gmapping/CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.i"
-	cd /home/user/ros1_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/ros1_ws/src/openslam_gmapping/scanmatcher/icptest.cpp > CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.i
+	cd /root/ros1_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/ros1_ws/src/openslam_gmapping/scanmatcher/icptest.cpp > CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.i
 
 openslam_gmapping/CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.s"
-	cd /home/user/ros1_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/ros1_ws/src/openslam_gmapping/scanmatcher/icptest.cpp -o CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.s
+	cd /root/ros1_ws/build/openslam_gmapping && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/ros1_ws/src/openslam_gmapping/scanmatcher/icptest.cpp -o CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.s
 
 # Object files for target icptest
 icptest_OBJECTS = \
@@ -77,28 +77,28 @@ icptest_OBJECTS = \
 # External object files for target icptest
 icptest_EXTERNAL_OBJECTS =
 
-/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest: openslam_gmapping/CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o
-/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest: openslam_gmapping/CMakeFiles/icptest.dir/build.make
-/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest: /home/user/ros1_ws/devel/lib/libscanmatcher.so
-/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest: /home/user/ros1_ws/devel/lib/liblog.so
-/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest: /home/user/ros1_ws/devel/lib/libsensor_range.so
-/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest: /home/user/ros1_ws/devel/lib/libsensor_odometry.so
-/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest: /home/user/ros1_ws/devel/lib/libsensor_base.so
-/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest: /home/user/ros1_ws/devel/lib/libutils.so
-/home/user/ros1_ws/devel/lib/openslam_gmapping/icptest: openslam_gmapping/CMakeFiles/icptest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/user/ros1_ws/devel/lib/openslam_gmapping/icptest"
-	cd /home/user/ros1_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/icptest.dir/link.txt --verbose=$(VERBOSE)
+/root/ros1_ws/devel/lib/openslam_gmapping/icptest: openslam_gmapping/CMakeFiles/icptest.dir/scanmatcher/icptest.cpp.o
+/root/ros1_ws/devel/lib/openslam_gmapping/icptest: openslam_gmapping/CMakeFiles/icptest.dir/build.make
+/root/ros1_ws/devel/lib/openslam_gmapping/icptest: /root/ros1_ws/devel/lib/libscanmatcher.so
+/root/ros1_ws/devel/lib/openslam_gmapping/icptest: /root/ros1_ws/devel/lib/liblog.so
+/root/ros1_ws/devel/lib/openslam_gmapping/icptest: /root/ros1_ws/devel/lib/libsensor_range.so
+/root/ros1_ws/devel/lib/openslam_gmapping/icptest: /root/ros1_ws/devel/lib/libsensor_odometry.so
+/root/ros1_ws/devel/lib/openslam_gmapping/icptest: /root/ros1_ws/devel/lib/libsensor_base.so
+/root/ros1_ws/devel/lib/openslam_gmapping/icptest: /root/ros1_ws/devel/lib/libutils.so
+/root/ros1_ws/devel/lib/openslam_gmapping/icptest: openslam_gmapping/CMakeFiles/icptest.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/ros1_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /root/ros1_ws/devel/lib/openslam_gmapping/icptest"
+	cd /root/ros1_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/icptest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-openslam_gmapping/CMakeFiles/icptest.dir/build: /home/user/ros1_ws/devel/lib/openslam_gmapping/icptest
+openslam_gmapping/CMakeFiles/icptest.dir/build: /root/ros1_ws/devel/lib/openslam_gmapping/icptest
 
 .PHONY : openslam_gmapping/CMakeFiles/icptest.dir/build
 
 openslam_gmapping/CMakeFiles/icptest.dir/clean:
-	cd /home/user/ros1_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/icptest.dir/cmake_clean.cmake
+	cd /root/ros1_ws/build/openslam_gmapping && $(CMAKE_COMMAND) -P CMakeFiles/icptest.dir/cmake_clean.cmake
 .PHONY : openslam_gmapping/CMakeFiles/icptest.dir/clean
 
 openslam_gmapping/CMakeFiles/icptest.dir/depend:
-	cd /home/user/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/ros1_ws/src /home/user/ros1_ws/src/openslam_gmapping /home/user/ros1_ws/build /home/user/ros1_ws/build/openslam_gmapping /home/user/ros1_ws/build/openslam_gmapping/CMakeFiles/icptest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/ros1_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/ros1_ws/src /root/ros1_ws/src/openslam_gmapping /root/ros1_ws/build /root/ros1_ws/build/openslam_gmapping /root/ros1_ws/build/openslam_gmapping/CMakeFiles/icptest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : openslam_gmapping/CMakeFiles/icptest.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/user/ros1_ws/src/tb3_pkgs/turtlebot3/turtlebot3_slam/src/flat_world_imu_node.cpp" "/home/user/ros1_ws/build/tb3_pkgs/turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/src/flat_world_imu_node.cpp.o"
+  "/root/ros1_ws/src/tb3_pkgs/turtlebot3/turtlebot3_slam/src/flat_world_imu_node.cpp" "/root/ros1_ws/build/tb3_pkgs/turtlebot3/turtlebot3_slam/CMakeFiles/flat_world_imu_node.dir/src/flat_world_imu_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/user/ros1_ws/src/tb3_pkgs/turtlebot3/turtlebot3_slam/include"
+  "/root/ros1_ws/src/tb3_pkgs/turtlebot3/turtlebot3_slam/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

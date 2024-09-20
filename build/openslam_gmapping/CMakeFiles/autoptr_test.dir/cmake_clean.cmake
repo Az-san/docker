@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/autoptr_test"
-  "/home/user/ros1_ws/devel/lib/openslam_gmapping/autoptr_test.pdb"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/autoptr_test"
+  "/root/ros1_ws/devel/lib/openslam_gmapping/autoptr_test.pdb"
   "CMakeFiles/autoptr_test.dir/utils/autoptr_test.cpp.o"
 )
 

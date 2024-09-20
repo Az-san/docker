@@ -67,14 +67,14 @@ set(srv_pkg_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(srv_pkg_SOURCE_PREFIX /home/user/ros1_ws/src/srv_pkg)
-  set(srv_pkg_DEVEL_PREFIX /home/user/ros1_ws/devel)
+  set(srv_pkg_SOURCE_PREFIX /root/ros1_ws/src/srv_pkg)
+  set(srv_pkg_DEVEL_PREFIX /root/ros1_ws/devel)
   set(srv_pkg_INSTALL_PREFIX "")
   set(srv_pkg_PREFIX ${srv_pkg_DEVEL_PREFIX})
 else()
   set(srv_pkg_SOURCE_PREFIX "")
   set(srv_pkg_DEVEL_PREFIX "")
-  set(srv_pkg_INSTALL_PREFIX /home/user/ros1_ws/install)
+  set(srv_pkg_INSTALL_PREFIX /root/ros1_ws/install)
   set(srv_pkg_PREFIX ${srv_pkg_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/user/ros1_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /root/ros1_ws/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

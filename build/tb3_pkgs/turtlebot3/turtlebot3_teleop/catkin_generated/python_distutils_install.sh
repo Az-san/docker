@@ -13,21 +13,21 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/user/ros1_ws/src/tb3_pkgs/turtlebot3/turtlebot3_teleop"
+echo_and_run cd "/root/ros1_ws/src/tb3_pkgs/turtlebot3/turtlebot3_teleop"
 
 # ensure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/user/ros1_ws/install/lib/python3/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/root/ros1_ws/install/lib/python3/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/user/ros1_ws/install/lib/python3/dist-packages:/home/user/ros1_ws/build/lib/python3/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/user/ros1_ws/build" \
+    PYTHONPATH="/root/ros1_ws/install/lib/python3/dist-packages:/root/ros1_ws/build/lib/python3/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/root/ros1_ws/build" \
     "/usr/bin/python3" \
-    "/home/user/ros1_ws/src/tb3_pkgs/turtlebot3/turtlebot3_teleop/setup.py" \
+    "/root/ros1_ws/src/tb3_pkgs/turtlebot3/turtlebot3_teleop/setup.py" \
      \
-    build --build-base "/home/user/ros1_ws/build/tb3_pkgs/turtlebot3/turtlebot3_teleop" \
+    build --build-base "/root/ros1_ws/build/tb3_pkgs/turtlebot3/turtlebot3_teleop" \
     install \
     --root="${DESTDIR-/}" \
-    --install-layout=deb --prefix="/home/user/ros1_ws/install" --install-scripts="/home/user/ros1_ws/install/bin"
+    --install-layout=deb --prefix="/root/ros1_ws/install" --install-scripts="/root/ros1_ws/install/bin"

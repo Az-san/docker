@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/user/ros1_ws/src
-# Build directory: /home/user/ros1_ws/build
+# Source directory: /root/ros1_ws/src
+# Build directory: /root/ros1_ws/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
