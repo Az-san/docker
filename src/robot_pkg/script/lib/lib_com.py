@@ -129,7 +129,7 @@ class LibCom:
     ## @return
     #==================================================
     def openArduino(self):
-       self.Ser=serial.Serial('/dev/ttyACM0',9600,timeout=3)
+       self.Ser=serial.Serial('/dev/ttyS3',9600,timeout=3)
        print(self.Ser.readline())
        #time.sleep(1)
        
