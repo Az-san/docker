@@ -61,6 +61,27 @@ class LibCom:
 
 
         return
+    
+    def openArduino(self, esp_ip);
+        self.esp_ip = esp_ip
+        print(f"Connected to ESP8266 at {esp_ip}")
+        return
+    
+    def writeArduino(seld, message)
+        try:
+            url = f"http://{self.esp_ip}/send"
+            response = requests.post(url, data={'message': message})
+            if response.status_code == 200:
+                print(f"Message '{message}' sent to Arduino.")
+            else:
+                print(f"Failed to send message. Status code: {response.status_code}")
+        except Exception as e:
+            print(f"Error during sending message: {e}")
+        return
+
+    def closeArduino(self):
+        print("Closed connection to ESP8266.")
+        return
 
 
     #==================================================
@@ -71,7 +92,7 @@ class LibCom:
     #==================================================
     def initSocket(self):
         self.sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.sock.bind(("172.17.6.210", 52350))  # 自身のIPアドレスとポート番号を指定
+        self.sock.bind(("172.17.6.119", 52350))  # 自身のIPアドレスとポート番号を指定
         print("waiting...")
         self.sock.listen(5)
         self.clientsocket, self.address = self.sock.accept()
